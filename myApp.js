@@ -1,7 +1,8 @@
-        const helmet = require('https://github.com/soarer55/infosec/blob/main/
-            package.json');
+const helmet = require('helmet');
 const express = require('express');
 const app = express();
+
+app.use(helmet());
 
 
 
