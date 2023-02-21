@@ -1,4 +1,4 @@
-const helmet = require('./package.json');
+const helmet = require('package.json');
 const express = require('express');
 const app = express();
 
